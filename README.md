@@ -2,7 +2,7 @@
  
 ## Origin 原图:
 
-![Origin](./demo/origin.png)
+![Origin](./demo/normal.png)
 
 ## Manual-Marked 手动标记:
 
