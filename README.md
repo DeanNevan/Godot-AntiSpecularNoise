@@ -14,4 +14,4 @@
 
 ## Enable-AntiSpecularNoise 启用高光噪声平滑:
 
-![Enable-AntiSpecularNoise](./demo/debug_draw.png)
+![Enable-AntiSpecularNoise](./demo/enabled.png)
