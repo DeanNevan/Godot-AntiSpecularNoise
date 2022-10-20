@@ -11,8 +11,6 @@ uniform int noise_points_count_threshold = 30;	// 扫描时，相邻点为亮点
 uniform int blur_count = 16;					// 与周围多少个相邻点计算色彩均值
 
 float get_luminance(vec3 color) {
-	// (0.299R)+(0.587G)+(0.114*B)
-	// return (color.r + color.g + color.b) / 3.0;
 	return 0.299 * color.r + 0.587 * color.g + 0.114 * color.b;
 }
 
@@ -60,7 +58,6 @@ void fragment() {
 		}
 		
 		if (is_noise) {
-			// (0.299R)+(0.587G)+(0.114*B)
 			if (debug_draw) {
 				COLOR = vec4(1.0, 0.0, 0.0, 1.0);
 			}

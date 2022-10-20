@@ -8,7 +8,7 @@
 [sub_resource type="ShaderMaterial" id=2]
 shader = ExtResource( 4 )
 shader_param/enable = true
-shader_param/debug_draw = true
+shader_param/debug_draw = false
 shader_param/scan_level = 3
 shader_param/luminance_threshold = 0.3
 shader_param/noise_points_count_threshold = 30
